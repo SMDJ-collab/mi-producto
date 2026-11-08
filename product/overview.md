@@ -13,7 +13,8 @@ Segmento Hogareño: personas de 20 a 40 años, con ingresos de $800 a $1,700 al 
 Ordenadas por impacto × incertidumbre: la primera es la siguiente a atacar.
 
 1. [product] [value] Al menos 1 de cada 3 personas del segmento tiene acceso a un terreno plano y libre (propio o familiar) donde se podría colocar un HomeTainer; sin terreno, no hay venta.
-2. [product] [value] Al ver fotos o un modelo de un HomeTainer Hogareño de $20k–30k, al menos 1 de cada 4 personas del segmento con terreno disponible da un paso con costo para avanzar: deja sus datos para una visita técnica al terreno o paga un depósito reembolsable.
-3. [product] [viability] Torogoz puede entregar un HomeTainer Hogareño terminado (contenedor, adecuación, transporte e instalación) por $20k–30k con margen positivo.
-4. [product] [viability] El segmento puede y está dispuesto a pagar una cuota mensual de unos $215–430 durante 10–15 años para financiar una vivienda de $20k–30k.
-5. [product] [viability] Torogoz puede financiar al segmento con un impago anual igual o menor al 8%, y aun así cubrir su costo de capital con una tasa al cliente igual o menor al 14% anual.
+2. [opportunity: credito-vivienda-excluidos] [value] De las personas del segmento que quieren independizarse, al menos 1 de cada 3 ha sido rechazada por un banco o una cooperativa para un crédito de vivienda, o no lo solicitó porque daba por hecho que no calificaría.
+3. [product] [value] Al ver fotos o un modelo de un HomeTainer Hogareño de $20k–30k, al menos 1 de cada 4 personas del segmento con terreno disponible da un paso con costo para avanzar: deja sus datos para una visita técnica al terreno o paga un depósito reembolsable.
+4. [product] [viability] Torogoz puede entregar un HomeTainer Hogareño terminado (contenedor, adecuación, transporte e instalación) por $20k–30k con margen positivo.
+5. [product] [viability] El segmento puede y está dispuesto a pagar una cuota mensual de unos $215–430 durante 10–15 años para financiar una vivienda de $20k–30k.
+6. [product] [viability] Torogoz puede financiar al segmento con un impago anual igual o menor al 8%, y aun así cubrir su costo de capital con una tasa al cliente igual o menor al 14% anual.
