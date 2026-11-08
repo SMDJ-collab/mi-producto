@@ -28,7 +28,7 @@ opportunity: credito-vivienda-excluidos
 
 Lo que esto prueba: hay oferta pública barata dirigida explícitamente a informales y receptores de remesas, y el Estado ya ve el segmento "tengo lote, no tengo para construir". Lo que no prueba: cuántas personas del segmento califican de verdad, cuántas son rechazadas y cuántas ni conocen el FSV.
 
-## Mora e impago (creencia #6)
+## Mora e impago (creencia #7)
 
 | Cartera | Índice de mora | Fuente |
 |---|---|---|
@@ -68,11 +68,11 @@ Lo que prueba: el formato existe y hay quien lo vende a ~$20k en la región. Lo 
 | Creencia (de overview.md) | Veredicto | Evidencia |
 |---|---|---|
 | #2 [opportunity: credito-vivienda-excluidos] [value] ≥ 1 de 3 rechazados o no aplicó | **contradice parcialmente** | Existe oferta del FSV a 4–5 % para informales con comprobantes, independientes y receptores de remesas [verificado]. La exclusión persistiría para quien no documenta ingresos o no tiene historial [verificado: requisitos FSV], pero su tamaño es desconocido. Sube su prioridad para la encuesta. |
-| #5 [product] [viability] cuota $215–430 por 10–15 años | **contradice (benchmark)** | El programa del Ministerio para construir en lote propio ofrece $20k a ≈ $158/mes y $25k a ≈ $197/mes, a 25 años [verificado]. Quien califica tiene una alternativa más barata. La disposición a pagar más por no calificar es desconocida. |
-| #6 [product] [viability] impago ≤ 8 % con tasa ≤ 14 % | **apoya débilmente / no concluye** | Mora del FSV ~2 % y del sistema 1.6 %; primer piso de BANDESAL 7.4 % [verificado]. Pero son carteras con selección; para el núcleo excluido no hay dato. La TML de vivienda vigente es desconocida. Una tasa de 14 % es ~3 veces la del FSV. |
-| #4 [product] [viability] entregar por $20–30k con margen | **apoya débilmente** | Hay quien anuncia casas contenedor desde $20k en la región [verificado]. El costo y el margen de Torogoz: desconocido. |
+| #6 [product] [viability] cuota $215–430 por 10–15 años | **contradice (benchmark)** | El programa del Ministerio para construir en lote propio ofrece $20k a ≈ $158/mes y $25k a ≈ $197/mes, a 25 años [verificado]. Quien califica tiene una alternativa más barata. La disposición a pagar más por no calificar es desconocida. |
+| #7 [product] [viability] impago ≤ 8 % con tasa ≤ 14 % | **apoya débilmente / no concluye** | Mora del FSV ~2 % y del sistema 1.6 %; primer piso de BANDESAL 7.4 % [verificado]. Pero son carteras con selección; para el núcleo excluido no hay dato. La TML de vivienda vigente es desconocida. Una tasa de 14 % es ~3 veces la del FSV. |
+| #5 [product] [viability] entregar por $20–30k con margen | **apoya débilmente** | Hay quien anuncia casas contenedor desde $20k en la región [verificado]. El costo y el margen de Torogoz: desconocido. |
 | #1 [product] [value] ≥ 1 de 3 con terreno | **no dice nada** (señal indirecta) | El gobierno lanzó un producto específico para dueños de lote [verificado]: el segmento existe, pero su proporción es desconocida. |
-| #3 [product] [value] ≥ 1 de 4 da un paso con costo | **no dice nada** | — |
+| #4 [product] [value] ≥ 1 de 4 da un paso con costo | **no dice nada** | — |
 
 ## Qué sigue necesitando research primario
 
@@ -80,7 +80,7 @@ Lo que prueba: el formato existe y hay quien lo vende a ~$20k en la región. Lo 
 - Del segmento que quiere independizarse, cuántos solicitaron crédito de vivienda (banco, cooperativa, FSV) y cuántos fueron rechazados; cuántos no aplicaron y por qué. → #2
 - Cuántos conocen el FSV y sus líneas para informales y remesas. → #2, y si el problema es de acceso o de información.
 - Cuántos pueden documentar sus ingresos (constancia, declaraciones, historial de remesas) y cuántos tienen historial crediticio. → tamaño del núcleo excluido
-- Cuota máxima que podrían pagar. → #5
+- Cuota máxima que podrían pagar. → #6
 
 **Entrevistas** (`/design-interview`, por qué):
 - Qué pasó cuando intentaron el FSV o un banco, y qué hacen hoy en su lugar.

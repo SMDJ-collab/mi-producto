@@ -39,17 +39,18 @@ Commercial. Ingresos por venta de HomeTainers Hogareños financiados por Torogoz
 ## Beliefs
 Registradas en product/overview.md:
 - [opportunity: credito-vivienda-excluidos] [value] De las personas del segmento que quieren independizarse, al menos 1 de cada 3 ha sido rechazada por un banco o una cooperativa para un crédito de vivienda, o no lo solicitó porque daba por hecho que no calificaría. (#2)
-- [product] [viability] El segmento puede y está dispuesto a pagar una cuota mensual de unos $215–430 durante 10–15 años para financiar una vivienda de $20k–30k. (#5)
-- [product] [viability] Torogoz puede financiar al segmento con un impago anual igual o menor al 8 %, y aun así cubrir su costo de capital con una tasa al cliente igual o menor al 14 % anual. (#6)
+- [opportunity: credito-vivienda-excluidos] [viability] Torogoz puede financiar, con su capital de $100k, a personas del segmento que el FSV rechaza, a una tasa igual o menor al 14 % anual que además esté dentro de la tasa máxima legal, con un impago anual igual o menor al 8 %, de modo que la cartera recupere el capital para volver a prestar. (#3)
+- [product] [viability] El segmento puede y está dispuesto a pagar una cuota mensual de unos $215–430 durante 10–15 años para financiar una vivienda de $20k–30k. (#6)
+- [product] [viability] Torogoz puede financiar al segmento con un impago anual igual o menor al 8 %, y aun así cubrir su costo de capital con una tasa al cliente igual o menor al 14 % anual. (#7)
 
 ## Research agenda
 | Belief | Instrument | Decision it unlocks | By when |
 |---|---|---|---|
 | #2 [value] Exclusión crediticia ≥ 1 de 3 | `/research-market`: requisitos de bancos, cooperativas y FSV; datos de acceso a crédito de vivienda por ingreso | Si la b sigue siendo el problema a atacar o se reformula hacia precio (a) o terreno (c) | 2026-11-30 |
 | #2 [value] Exclusión crediticia ≥ 1 de 3 | `/design-survey` al segmento, con bloque de opt-in para entrevistas | Confirmar o descartar la oportunidad con datos propios | 2027-01-15 |
-| #5 Capacidad y disposición de pago | Misma encuesta (ingreso, gastos, cuota máxima aceptable) + `/design-interview` con opt-ins | Rango de precio y plazo viable del financiamiento | 2027-02-15 |
-| #6 Impago ≤ 8 % con tasa ≤ 14 % | `/research-market`: tasas de impago en microcrédito y crédito de vivienda de bajo ingreso en El Salvador; tasas máximas vigentes | Si Torogoz financia directamente o necesita un aliado | 2026-12-15 |
-| Restricción regulatoria | Consulta legal o secundaria: quién puede otorgar crédito y con qué tasa máxima | Si el financiamiento propio es legalmente viable tal como está planteado | 2026-12-15 |
+| #6 Capacidad y disposición de pago | Misma encuesta (ingreso, gastos, cuota máxima aceptable) + `/design-interview` con opt-ins | Rango de precio y plazo viable del financiamiento | 2027-02-15 |
+| #7 Impago ≤ 8 % con tasa ≤ 14 % | `/research-market`: tasas de impago en microcrédito y crédito de vivienda de bajo ingreso en El Salvador; tasas máximas vigentes | Si Torogoz financia directamente o necesita un aliado | 2026-12-15 |
+| #3 [viability] + restricción regulatoria | Consulta legal o secundaria: quién puede otorgar crédito y con qué tasa máxima | Si el financiamiento propio es legalmente viable tal como está planteado | 2026-12-15 |
 
 ## Candidate ideas (not evaluated)
 - HomeTainer Hogareño de $20–30k financiado directamente por Torogoz (del overview)
