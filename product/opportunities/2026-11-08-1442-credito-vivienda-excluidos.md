@@ -1,7 +1,7 @@
 ---
 status: framed
 segment: Personas de 20–40 años en San Salvador y La Libertad, con ingresos de $800–1,700/mes que el sistema bancario no acepta (formales bajos, independientes variables o informales en efectivo), que quieren independizarse de su familia de origen
-personas: karla-mejia, diego-ramirez, rosa-elena-flores, jose-mauricio-hernandez, andrea-castillo
+personas: rosa-elena-flores, kevin-alvarado, karla-mejia, diego-ramirez, jose-mauricio-hernandez, andrea-castillo
 ---
 
 # Opportunity: Crédito de vivienda para quienes el banco excluye
