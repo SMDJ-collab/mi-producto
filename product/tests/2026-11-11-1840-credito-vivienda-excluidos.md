@@ -1,7 +1,7 @@
 ---
 opportunity: credito-vivienda-excluidos
 solutions: product/solutions/2026-11-11-1823-credito-vivienda-excluidos.md
-status: designed
+status: analyzed
 ---
 
 # Tests de solución para: Crédito de vivienda para quienes el banco excluye
@@ -10,7 +10,7 @@ status: designed
 Solo A3 (`puente-fsv`) está en prueba. Sobre el problema hay señales `synthetic` y `secondary`, ninguna `real` todavía (la encuesta sale el 2026-11-23). Sobre la solución no hay nada. Nadie ha confirmado que el FSV o el Ministerio financien una vivienda en contenedor, y nadie del segmento ha reaccionado a una oferta de acompañamiento. Primero va la elegibilidad (#8): si falla, A3 no existe. Después va el valor (#10).
 
 ## T1. puente-fsv: consulta de elegibilidad al FSV y al Ministerio
-- **Test status:** ready
+- **Test status:** analyzed
 - **Belief under test:** "Un HomeTainer Hogareño instalado en terreno del cliente es elegible como vivienda financiable por el FSV o por el programa de construcción en lote propio del Ministerio." (#8)
 - **Risk:** [feasibility]
 - **Test type:** eligibility-consultation
@@ -24,12 +24,27 @@ Solo A3 (`puente-fsv`) está en prueba. Sobre el problema hay señales `syntheti
 - **Expected provenance:** real
 - **Next step if it passes:** T2.
 
+## T1b. puente-fsv: expediente concreto en evaluación técnica del FSV
+- **Test status:** analyzed
+- **Belief under test:** "Un HomeTainer Hogareño instalado en terreno del cliente es elegible como vivienda financiable por el FSV o por el programa de construcción en lote propio del Ministerio." (#8)
+- **Risk:** [feasibility]
+- **Test type:** case-evaluation
+- **What we do:** 1) Elegir 1 caso real: una persona del segmento con lote a su nombre (sin titularidad familiar, que en T1 fue condición no cumplible en ≤ 3 meses) e ingresos documentables, que dé su consentimiento por escrito. 2) Preparar el expediente técnico del HomeTainer para ese lote. 3) Presentarlo al FSV (y al operador del programa del Ministerio, si T1 lo identificó) pidiendo solo la evaluación del inmueble como garantía (dictamen técnico y avalúo), separada de la evaluación crediticia de la persona. 4) Preguntar por escrito, además: "¿existe algún impedimento por el tipo de construcción (contenedor), independientemente del expediente?".
+- **With whom:** 1 caso (1 lote + 1 solicitante), reclutado entre los opt-in de la encuesta (Q1 con comprobantes, Q6 opción 1, Q8 escrituras en orden). Instancia: FSV, y el operador del Ministerio si existe. Responsable: tech.
+- **Material needed:** el expediente técnico del lote elegido (planos, memoria de cálculo firmada por un ingeniero, estudio de suelo, presupuesto desglosado), la carta de consentimiento del solicitante, la pregunta escrita sobre impedimento por tipo de construcción y una hoja de captura (por cada requisito u observación de la instancia: texto, cumplido sí/no, fecha; resultado del dictamen; valor del avalúo frente al precio). Se deja fuera a propósito: la solicitud formal de crédito, la evaluación crediticia del solicitante y cualquier compromiso de venta.
+- **Material:** product/tests/materials/t1b-puente-fsv/ (reclutamiento.md, consentimiento.md, solicitud-fsv.md, expediente-indice.md, hoja-captura.md)
+- **Duration:** 6 semanas desde la presentación del expediente; corte a más tardar el 2027-02-26.
+- **Signal and threshold:** dictamen técnico o avalúo escrito que acepte el inmueble como garantía, con un valor de avalúo ≥ 90 % del precio de venta del HomeTainer. Sin respuesta escrita al corte, el resultado es `inconclusive`.
+- **Decision rule:** continue si el inmueble se acepta con avalúo ≥ 90 % del precio · change si se acepta con avalúo < 90 % (ajustar precio o especificación, o combinar con A5) o solo con modificaciones al producto (la versión cambiada necesita su propio test) · discard si se rechaza por el tipo de construcción, o si los requisitos no se pueden cumplir antes del 2027-05-08.
+- **Expected provenance:** real
+- **Next step if it passes:** T2.
+
 ## T2. puente-fsv: concierge, oferta de acompañamiento con entrega de documentos
 - **Test status:** designed
 - **Belief under test:** "Al menos 1 de cada 4 de quienes califican entrega sus documentos a Torogoz para iniciar el trámite." (#10)
 - **Risk:** [value]
 - **Test type:** concierge
-- **What we do:** Solo se corre si T1 pasa. 1) Reclutar entre quienes dejaron opt-in en la encuesta y probablemente califican al FSV: ingreso formal o independiente con comprobantes (Q1), acceso a terreno (Q6, opciones 1–2) y escrituras en orden (Q8). Si T1 dice que el lote tiene que estar a nombre del solicitante, aplicar ese filtro. 2) Conversación de 20–30 minutos (llamada o en persona) con la oferta concreta: Torogoz arma tu carpeta para el FSV o el Ministerio y te acompaña en el trámite; el HomeTainer es elegible según lo que respondió la institución en T1; no se promete aprobación. 3) Pedir un compromiso concreto: enviar por WhatsApp o en persona, en los 7 días siguientes, los documentos de la lista (DUI, comprobantes de ingreso, escritura del terreno) para hacer la precalificación. 4) Registrar quién entrega, qué entrega y qué objeción da quien no entrega.
+- **What we do:** Solo se corre si T1b pasa. 1) Reclutar entre quienes dejaron opt-in en la encuesta y probablemente califican al FSV: ingreso formal o independiente con comprobantes (Q1), acceso a terreno (Q6, opciones 1–2) y escrituras en orden (Q8). Si T1 dice que el lote tiene que estar a nombre del solicitante, aplicar ese filtro. 2) Conversación de 20–30 minutos (llamada o en persona) con la oferta concreta: Torogoz arma tu carpeta para el FSV o el Ministerio y te acompaña en el trámite; el HomeTainer es elegible según lo que respondió la institución en T1; no se promete aprobación. 3) Pedir un compromiso concreto: enviar por WhatsApp o en persona, en los 7 días siguientes, los documentos de la lista (DUI, comprobantes de ingreso, escritura del terreno) para hacer la precalificación. 4) Registrar quién entrega, qué entrega y qué objeción da quien no entrega.
 - **With whom:** 12 personas reales del segmento (20–40 años, San Salvador o La Libertad, $800–1,700/mes, viven con su familia), reclutadas de los opt-in de la encuesta. Si hay suficientes, la mitad con terreno propio y la mitad con terreno familiar.
 - **Material needed:** una oferta de 1 página apta para WhatsApp (qué hace Torogoz, qué no hace, qué dijo la institución en T1, fotos reales del HomeTainer, sin precios inventados ni promesa de aprobación), un guion de conversación con la petición de compromiso textual, una checklist de documentos con un aviso de uso y resguardo de datos, y una hoja de captura por participante (perfil Q1/Q6/Q8, fecha de la conversación, compromiso pedido sí/no, documentos entregados completos/parciales/ninguno, fecha de entrega, objeción literal). Se deja fuera a propósito: simulador de cuotas, página web, app, cualquier cobro y la venta del HomeTainer en sí.
 - **Material:** —
@@ -47,6 +62,22 @@ Solo A3 (`puente-fsv`) está en prueba. Sobre el problema hay señales `syntheti
 - **Resultado del ensayo:** inconclusive (0 de 2 respuestas documentadas). No es el resultado de T1: la corrida real sigue pendiente.
 - **Decisión:** ninguna sobre A3. Para la corrida real: conseguir la memoria de cálculo firmada antes de enviar, que la hoja exija sí/no a tech y hacer la visita al Ministerio a los 5–7 días hábiles.
 
-### T2 — not run
+### T1 — 2026-12-04 (ejercicio académico, respuestas simuladas)
+- **Observado:** FSV y Ministerio respondieron por escrito; ninguno confirma elegibilidad, ambos condicionan a cada expediente (titularidad, permisos, avalúo, operador financiero). Perito: sin respuesta. Material: materials/t1-puente-fsv/ archivos "(1)".
+- **Con quién y cuántos:** 2 instancias + 1 perito.
+- **Resultado:** failed (0 de 2 confirman elegibilidad).
+- **Decisión:** change → T1b: elegibilidad con un expediente concreto en precalificación técnica.
+
+### T1b — 2027-02-12 (ejercicio académico, respuestas simuladas)
+- **Observado:** caso simulado D.R. (lote propio de 300 m², Zaragoza). El FSV aceptó evaluar el inmueble sin solicitud de crédito; dictamen escrito: acepta como garantía con 2 observaciones cumplibles antes del 2027-05-08 (detalle de anclaje en la memoria de cálculo, factibilidad de agua y saneamiento). Sin impedimento por tipo de construcción. Avalúo total USD 31,400 (terreno 9,000 + construcción 22,400) frente a precio USD 26,800. Hoja: materials/t1b-puente-fsv/hoja-captura-simulada.md.
+- **Con quién y cuántos:** 1 caso, 1 instancia (FSV).
+- **Resultado:** passed (avalúo total = 117 % del precio, umbral ≥ 90 %).
+- **Ojo:** solo la construcción vale el 84 % del precio. El umbral decía "valor de avalúo" sin precisar si incluye el terreno; se aplicó tal como estaba escrito. Precisarlo en T2 o en la spec, porque el FSV financia sobre el avalúo total y el terreno del cliente cubre la diferencia.
+- **Decisión:** continue → T2.
+
+### T2 — not run (espera material)
 
 ## Decision
+A3 `puente-fsv`: **change** (ejercicio académico, respuestas simuladas). Ninguna institución descarta el contenedor, pero tampoco confirman el producto en general: la elegibilidad se decide por expediente. A3 sigue y se prueba con un caso real (T1b) antes de T2. La regla de T1 no contemplaba una respuesta "caso por caso"; la interpretación quedó registrada en product/corrections.md.
+
+Actualización 2027-02-12 (ejercicio académico, respuestas simuladas): T1b passed. A3 `puente-fsv`: **continue** → T2 (concierge con entrega de documentos).

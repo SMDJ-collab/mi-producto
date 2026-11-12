@@ -22,3 +22,10 @@ Registro de decisiones en las que el equipo cambió lo que la IA propuso. Cada e
 - **Propuesta de la IA:** dejar el capital disponible y la fecha de decisión como "no sé", para convertirlos en hallazgos de la agenda.
 - **Decisión:** capital de $100k para financiar; decisión sobre el segmento Hogareño en 6 meses (2027-05-08), cuando se puede abrir otro segmento.
 - **Por qué:** son datos del negocio que solo el equipo tiene. Cambian la viabilidad: con $100k Torogoz solo puede financiar entre 3 y 5 viviendas antes de agotar el capital.
+
+## 2026-11-11 — Decisión sobre T1 de puente-fsv (`/analyze-solution-tests`) (ejercicio académico, respuestas simuladas)
+
+- **Artefacto:** `product/tests/2026-11-11-1840-credito-vivienda-excluidos.md`
+- **Propuesta de la IA:** la regla de decisión de T1 esperaba confirmación o rechazo del producto; no contemplaba una respuesta "depende de cada expediente". Con 0 de 2 confirmaciones y ningún rechazo, la IA propuso `change` hacia T1b (elegibilidad con un expediente concreto) como interpretación, no como aplicación directa de la regla.
+- **Decisión:** `change` → T1b.
+- **Por qué:** ninguna institución descarta el contenedor por el material; las condiciones son las de cualquier expediente. Descartar A3 sin probar un caso concreto sería prematuro. Pendiente: corregir la regla de T1 en `/design-solution-tests` para cubrir respuestas "caso por caso".

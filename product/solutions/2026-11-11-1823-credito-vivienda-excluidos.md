@@ -31,7 +31,7 @@ Un primer módulo de $8–12k, pagable con ahorro más un crédito pequeño, que
 ## Comparación
 | Alternativa | Desirable | Feasible | Viable | Riskiest belief |
 |---|---|---|---|---|
-| A3 puente-fsv | mixed — pain evidenced, relief not tested (synthetic: entrevista Karla; secondary: research FSV) | to check with tech — elegibilidad del contenedor ante FSV/Ministerio: unknown (secondary, research) | mixed (assumption) — mueve ventas, libera capital; no mueve el outcome de "financiamiento propio" del brief | Un HomeTainer en terreno del cliente es financiable por el FSV o el programa del Ministerio |
+| A3 puente-fsv | mixed — pain evidenced, relief not tested (synthetic: entrevista Karla; secondary: research FSV) | strong — expediente concreto aceptado como garantía por el FSV, sin impedimento por tipo de construcción; avalúo total 117 % del precio (construcción sola 84 %) (product/tests/2026-11-11-1840-credito-vivienda-excluidos.md, T1b, (ejercicio académico, respuestas simuladas)) | mixed (assumption) — mueve ventas, libera capital; no mueve el outcome de "financiamiento propio" del brief | Un HomeTainer en terreno del cliente es financiable por el FSV o el programa del Ministerio |
 | A1, A2, A4, A5 | no evaluadas (parked) | — | — | — |
 
 ## Decisión
@@ -61,3 +61,5 @@ El equipo eligió A3 para probarla (2026-11-11), sin evaluar las demás. La IA h
 - A5 — parked: no evaluada. Vuelve si la elegibilidad falla o la capacidad de pago (#6) resulta menor que la cuota del Ministerio.
 
 ## Resultado
+- A3 `puente-fsv` — chosen, en change → T1b (elegibilidad con expediente concreto). Ver product/tests/2026-11-11-1840-credito-vivienda-excluidos.md (ejercicio académico, respuestas simuladas).
+- A3 `puente-fsv` — T1b passed: continue → T2 (concierge). Ver product/tests/2026-11-11-1840-credito-vivienda-excluidos.md (ejercicio académico, respuestas simuladas).
