@@ -25,3 +25,6 @@ Ordenadas por impacto × incertidumbre: la primera es la siguiente a atacar.
 9. [feature: puente-fsv] [value] Al menos 1 de cada 3 personas del segmento con terreno disponible que no pidió crédito o lo dejó cumple los requisitos del FSV con acompañamiento.
 10. [feature: puente-fsv] [value] Al menos 1 de cada 4 de quienes califican entrega sus documentos a Torogoz para iniciar el trámite.
 11. [feature: puente-fsv] [viability] Torogoz puede vender un HomeTainer con crédito del FSV o del Ministerio, cobrando el desembolso como constructor, con margen positivo y sin usar su capital para prestar.
+12. [feature: puente-fsv] [feasibility] El FSV calcula el monto financiable sobre el avalúo total (terreno + construcción) y no solo sobre la construcción. — owner: PM
+13. [feature: puente-fsv] [feasibility] Torogoz puede preparar el expediente técnico de cada lote (planos, memoria de cálculo firmada, estudio de suelo, factibilidad de agua y saneamiento) en ≤ 4 semanas, con un costo que cabe en el margen de la venta.
+14. [feature: puente-fsv] [usability] Quien recibe la oferta entiende, sin una segunda explicación, qué hace Torogoz y qué no (no presta, no promete aprobación).
