@@ -2,7 +2,7 @@
 opportunity: credito-vivienda-excluidos
 status: chosen
 chosen: puente-fsv
-tests:
+tests: product/tests/2026-11-11-1840-credito-vivienda-excluidos.md
 ---
 
 # Soluciones para: Crédito de vivienda para quienes el banco excluye
@@ -38,8 +38,7 @@ Un primer módulo de $8–12k, pagable con ahorro más un crédito pequeño, que
 El equipo eligió A3 para probarla (2026-11-11), sin evaluar las demás. La IA había recomendado mantener el set completo antes de evaluar; no había recomendado ninguna alternativa en particular. Advertencia registrada: si A3 gana, el outcome del brief ("viviendas vendidas con financiamiento propio", impago ≤ 8 %) tendrá que reformularse a ventas con crédito de terceros.
 
 ## A probar
-- A3 — "Un HomeTainer Hogareño instalado en terreno del cliente es elegible como vivienda financiable por el FSV o por el programa de construcción en lote propio del Ministerio": si no lo es, A3 no existe, haya o no demanda. Se diseña en /design-solution-tests.
-- A3 — "Al menos 1 de cada 3 personas del segmento con terreno disponible que no pidió crédito o lo dejó cumple los requisitos del FSV con acompañamiento": decide si el puente llega a suficiente gente. La encuesta del 2026-11-23 da parte de la respuesta (Q1, Q3–Q5).
+- A3 — diseño de tests en product/tests/2026-11-11-1840-credito-vivienda-excluidos.md: T1 elegibilidad ante FSV/Ministerio (#8, [feasibility]); T2 concierge con entrega de documentos (#10, [value]), solo si T1 pasa. La #9 la cubren en parte la encuesta del 2026-11-23 (Q1, Q3–Q5) y el siguiente paso de T2.
 
 ## Propuesta de valor: puente-fsv (para Diego Ramírez, primary)
 - Dolor que alivia: le negaron la hipoteca en dos bancos por no tener constancia de salario, aunque su ingreso califica (synthetic, persona). Hoy vive con los suegros, con tensiones de por medio.
