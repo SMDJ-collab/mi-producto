@@ -53,5 +53,5 @@ Registradas en product/overview.md:
 | #3 [viability] + restricción regulatoria | Consulta legal o secundaria: quién puede otorgar crédito y con qué tasa máxima | Si el financiamiento propio es legalmente viable tal como está planteado | 2026-12-15 |
 
 ## Candidate ideas (not evaluated)
-- HomeTainer Hogareño de $20–30k financiado directamente por Torogoz (del overview)
-- Usar al familiar dueño del terreno como codeudor, o el terreno como garantía (surgió al revisar a José Mauricio)
+- HomeTainer Hogareño de $20–30k financiado directamente por Torogoz (del overview) → `parked` (A1, `financiamiento-directo`) — product/solutions/2026-11-11-1823-credito-vivienda-excluidos.md
+- Usar al familiar dueño del terreno como codeudor, o el terreno como garantía (surgió al revisar a José Mauricio) → `parked` (A2, `garantia-terreno-familiar`) — product/solutions/2026-11-11-1823-credito-vivienda-excluidos.md

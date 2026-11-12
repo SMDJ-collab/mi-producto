@@ -19,3 +19,7 @@ Ordenadas por impacto × incertidumbre: la primera es la siguiente a atacar.
 5. [product] [viability] Torogoz puede entregar un HomeTainer Hogareño terminado (contenedor, adecuación, transporte e instalación) por $20k–30k con margen positivo.
 6. [product] [viability] El segmento puede y está dispuesto a pagar una cuota mensual de unos $215–430 durante 10–15 años para financiar una vivienda de $20k–30k.
 7. [product] [viability] Torogoz puede financiar al segmento con un impago anual igual o menor al 8%, y aun así cubrir su costo de capital con una tasa al cliente igual o menor al 14% anual.
+8. [feature: puente-fsv] [feasibility] Un HomeTainer Hogareño instalado en terreno del cliente es elegible como vivienda financiable por el FSV o por el programa de construcción en lote propio del Ministerio.
+9. [feature: puente-fsv] [value] Al menos 1 de cada 3 personas del segmento con terreno disponible que no pidió crédito o lo dejó cumple los requisitos del FSV con acompañamiento.
+10. [feature: puente-fsv] [value] Al menos 1 de cada 4 de quienes califican entrega sus documentos a Torogoz para iniciar el trámite.
+11. [feature: puente-fsv] [viability] Torogoz puede vender un HomeTainer con crédito del FSV o del Ministerio, cobrando el desembolso como constructor, con margen positivo y sin usar su capital para prestar.
