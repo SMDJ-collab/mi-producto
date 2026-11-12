@@ -1,80 +1,39 @@
-# Consulta formal — T1 puente-fsv (ejemplo sintético)
+# Consulta formal — T1 puente-fsv
 
-> **SIMULACIÓN / NO ENVIADO.** Este documento contiene modelos de comunicaciones y escenarios ficticios de respuesta. No constituye correspondencia con el FSV o el Ministerio, ni acredita elegibilidad o financiamiento.
+Se envía por escrito (correo o carta) al FSV (línea de vivienda/construcción) y al Ministerio de Vivienda (programa de construcción en lote propio), con la ficha técnica adjunta. Visita de seguimiento si no hay respuesta.
 
-**Fecha propuesta de envío:** 2026-11-16 (fecha ficticia de ensayo)
+## Calendario
+- Día 0: enviar la consulta al FSV y al Ministerio, con la ficha y la memoria de cálculo
+- Días 5–7 hábiles: visita de seguimiento a cada instancia que no haya respondido por escrito
+- Día 10 hábil sin respuesta de ninguna: enviar la versión de respaldo al perito
+- 2026-12-04: corte
 
-## Consulta A: Fondo Social para la Vivienda
+---
 
-**Asunto:** Consulta de elegibilidad: vivienda en contenedor sobre lote propio, modelo Hogareño
+**Asunto:** Consulta de elegibilidad: vivienda en contenedor sobre lote propio
 
-Estimados señores del Fondo Social para la Vivienda:
+Estimados señores de [FSV — línea de vivienda/construcción | Ministerio de Vivienda — programa de construcción en lote propio]:
 
-HomeTainer Torogoz, empresa ficticia utilizada en este ensayo, plantea fabricar e instalar viviendas adaptadas de contenedores marítimos para uso habitacional en terrenos de clientes de San Salvador y La Libertad. Adjuntamos la ficha técnica preliminar del modelo Hogareño. Las características aún requieren validación técnica.
+HomeTainer Torogoz fabrica e instala viviendas hechas con contenedores marítimos adecuados para uso habitacional, en terreno del cliente, en San Salvador y La Libertad. Adjuntamos la ficha técnica del modelo Hogareño.
 
-Agradeceremos confirmar **por escrito y con referencia normativa**:
+Les pedimos una respuesta por escrito a las siguientes preguntas:
 
-1. ¿Puede una vivienda construida a partir de contenedores ser considerada inmueble financiable y aceptable como garantía en alguna línea de vivienda o construcción? ¿Bajo qué condiciones?
-2. ¿Qué requisitos técnicos, estructurales, sísmicos, de cimentación y área mínima se exigen?
-3. ¿Qué permisos municipales, urbanísticos, ambientales o de otra naturaleza se deben presentar y ante qué autoridad?
-4. ¿Cómo se realiza el avalúo de una construcción de este tipo? ¿Hay requisitos específicos para el perito?
-5. ¿Debe el constructor estar inscrito o calificado? ¿Cuál es el procedimiento?
-6. ¿Puede edificarse sobre terreno de padres u otros familiares? ¿Qué titularidad, autorización y garantía se requieren?
-7. ¿Los desembolsos se realizan al constructor o al solicitante, y en qué etapas y contra qué inspecciones?
-8. ¿Existe un instructivo, norma o documento público que establezca estos criterios?
+1. ¿Una vivienda como la de la ficha, instalada en el lote del solicitante, es elegible como vivienda financiable (y como garantía) en [línea / programa]?
+2. Si lo es, ¿qué condiciones técnicas debe cumplir? Por ejemplo: normativa estructural y sísmica, cimentación, área mínima.
+3. ¿Qué permisos se requieren (municipales, OPAMSS u otros)?
+4. ¿Cómo se realiza el avalúo de una vivienda de este tipo y qué exige el perito?
+5. ¿El constructor necesita estar registrado o calificado ante ustedes? ¿Cómo se hace?
+6. ¿El lote tiene que estar a nombre del solicitante, o puede ser de un familiar? Si puede ser de un familiar, ¿con qué figura?
+7. ¿El desembolso se hace al constructor? ¿En qué etapas?
+8. *(Solo Ministerio)* ¿Qué institución otorga el crédito, a qué tasa y con qué criterios de ingreso?
+9. ¿Existe una norma o un documento publicado con estos criterios? Les agradeceríamos la referencia.
 
-Atentamente,
+Quedamos atentos y con gusto los visitamos para ampliar la información.
 
-**Coordinación técnica del proyecto** (identidad y contacto reales pendientes de completar antes de un eventual envío).
+[Nombre, cargo, teléfono, correo]
 
-**Adjunto propuesto:** `ficha-tecnica.md` (borrador, no certificación).
+---
 
-## Consulta B: Ministerio de Vivienda
+## Versión de respaldo: perito valuador registrado ante el FSV
 
-**Asunto:** Consulta sobre construcción de vivienda en contenedor en lote propio
-
-Estimados señores del Ministerio de Vivienda:
-
-Solicitamos orientación escrita sobre la eventual elegibilidad de una vivienda construida con contenedores marítimos, instalada en lote propio o familiar, dentro de las alternativas o programas de construcción habitacional que correspondan. La ficha técnica adjunta describe un concepto preliminar que todavía no dispone de cálculo estructural firmado.
-
-Agradeceremos responder las mismas preguntas 1 a 8 anteriores y, adicionalmente:
-
-9. Si existe un programa aplicable, ¿qué entidad otorga el financiamiento, cuáles son sus tasas y plazos vigentes, y qué requisitos de ingresos, documentación y propiedad del lote exige?
-10. ¿Podrían indicarnos los documentos oficiales y oficinas competentes para confirmar la información?
-
-Atentamente,
-
-**Coordinación técnica del proyecto** (identidad y contacto reales pendientes).
-
-**Adjunto propuesto:** `ficha-tecnica.md`.
-
-## Escenarios de respuesta para practicar (todos inventados)
-
-### Escenario A, respuesta ficticia del FSV, 2026-12-01
-
-> Para determinar la elegibilidad de un proyecto no tradicional se requeriría evaluar su documentación técnica, cumplimiento normativo, titularidad del inmueble y garantía. Esta nota de simulación no constituye una aprobación. No se establece que exista un producto crediticio específico para viviendas de contenedor.
-
-**Interpretación del equipo en el ensayo:** respuesta condicionada y sin evidencia normativa. No contar como aprobación ni como elegibilidad confirmada.
-
-### Escenario B, Ministerio sin respuesta al corte 2026-12-04
-
-No se simula una respuesta del Ministerio. La ausencia de respuesta impide conocer la institución financiadora, la tasa y los criterios de ingreso.
-
-## Respaldo: consulta hipotética a perito
-
-**Activación:** si no hay respuesta institucional después de 10 días hábiles, verificar calendario aplicable.
-
-**Asunto:** Consulta exploratoria sobre avalúo de vivienda en contenedor
-
-Estimado perito:
-
-¿Usted podría valorar una vivienda adaptada de contenedores, anclada a cimentación permanente, sobre lote propio? ¿Qué planos, memoria estructural, permisos, comprobantes de costos y antecedentes comparables necesitaría? ¿Qué aspectos podrían impedir un avalúo aceptable para garantía? ¿La existencia de una valoración implica que una entidad financiera acepte el inmueble? Agradeceremos distinguir su opinión profesional de los criterios institucionales.
-
-**Nota:** una respuesta del perito, incluso favorable, no sustituye una respuesta oficial de las instituciones.
-
-## Registro de estado
-
-- Consulta A: **no enviada en la realidad**.
-- Consulta B: **no enviada en la realidad**.
-- Respuesta institucional real: **ninguna registrada**.
-- Resultado de validación: **inconclusive**, pendiente de evidencia verificable.
+Se envía solo si no hay respuesta en 10 días hábiles. Lleva las preguntas 1 a 5 redactadas en primera persona ("¿usted podría valuar…?"). Su respuesta se registra, pero sola no alcanza para pasar el umbral.

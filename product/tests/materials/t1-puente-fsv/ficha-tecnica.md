@@ -1,30 +1,30 @@
-> **SIMULACIÓN SINTÉTICA PARA ENSAYO.** Las especificaciones son supuestos de diseño, no certificaciones, ensayos ni datos verificados de una unidad fabricada. No usar para permisos, avalúos ni solicitudes reales.
+> **Antes de enviar (borrar este bloque al enviar):**
+> - [ ] Todos los campos con datos reales de una unidad de Torogoz; nada estimado sin decirlo
+> - [ ] Memoria de cálculo estructural firmada por un ingeniero, adjunta. Sin ella, la respuesta esperable es "depende"
+> - [ ] 2 fotos reales de una unidad terminada (exterior e interior)
 
-# HomeTainer Hogareño — Ficha técnica (escenario sintético)
+# HomeTainer Hogareño — Ficha técnica
 
-**Fabricante e instalador:** HomeTainer Torogoz (empresa ficticia para este ensayo) · **Contacto:** pendiente de designar (no se simulan datos de contacto reales)
+**Fabricante e instalador:** HomeTainer Torogoz · [contacto: nombre, teléfono, correo]
 
-| Campo | Dato simulado |
+| Campo | Dato |
 |---|---|
-| Contenedores | 2 contenedores marítimos de 20 pies estándar, aprox. 6.06 × 2.44 × 2.59 m cada uno, unidos lateralmente |
-| Área habitable | 25.5 m² interiores útiles estimados, sujetos a planos y medición |
-| Distribución | 1 dormitorio, 1 baño, cocina lineal y sala-comedor integrados |
-| Estructura | Acero de contenedores; propuesta de marcos tubulares soldados en aberturas y unión entre módulos. Diseño por validar mediante cálculo |
-| Cálculo estructural | **No disponible ni firmado.** Cumplimiento sísmico **no demostrado**; requiere ingeniería y revisión normativa aplicable |
-| Cimentación | Propuesta preliminar de 8 pedestales de concreto armado con placas y anclajes mecánicos; dimensiones y capacidad sujetas a estudio de suelo y diseño estructural |
-| Aislamiento térmico y acústico | Propuesta de paneles de lana mineral de 50 mm en paredes y 75 mm en techo, con barrera de vapor según diseño higrotérmico |
-| Protección anticorrosiva | Limpieza y preparación de superficies, imprimante epóxico y acabado protector; inspección anual prevista, sin ensayo de durabilidad |
-| Techo | Cubierta liviana separada de la chapa superior para ventilación, pendiente y drenajes por diseñar |
-| Instalaciones | Circuitos eléctricos y tablero con protecciones; agua potable; desagüe a red existente o solución sanitaria aprobada, según lote |
-| Vida útil estimada | **No determinada**. No hay evidencia técnica suficiente para fijar años; depende de corrosión, diseño y mantenimiento |
-| Plazo de fabricación e instalación | Hipótesis de 10–14 semanas tras permisos y preparación del terreno; no constituye compromiso |
-| Precio de referencia | **US$26,800 hipotéticos** para módulo habitable; excluye terreno, permisos, cimentación, acometidas, transporte extraordinario e impuestos por definir |
-| Requisitos del terreno | Preferentemente plano, espacio libre ≥ 6 × 12 m, acceso verificable para camión y maniobras de grúa, agua y energía cercanas, saneamiento viable, titularidad acreditada y factibilidad municipal |
+| Contenedores | [tipo (20' / 40' HC), cantidad, medidas exteriores] |
+| Área habitable | [m²] |
+| Distribución | [ambientes: dormitorios, baño, cocina, sala] |
+| Estructura | [acero del contenedor; cómo se refuerzan los cortes de puertas y ventanas] |
+| Cálculo estructural | [¿firmado por ingeniero estructural? sí/no; normativa sísmica que cumple] |
+| Cimentación | [tipo, dimensiones, anclaje del contenedor] |
+| Aislamiento térmico y acústico | [material y espesor en paredes y techo] |
+| Protección anticorrosiva | [tratamiento y mantenimiento previsto] |
+| Techo | [tipo; doble techo o ventilación] |
+| Instalaciones | [eléctrica, agua potable, aguas negras (red o fosa)] |
+| Vida útil estimada | [años y en qué se basa la estimación] |
+| Plazo de fabricación e instalación | [semanas] |
+| Precio de referencia | [USD, del modelo de la ficha, dentro de $20–30k] |
+| Requisitos del terreno | Terreno plano, acceso para el transporte, servicios de agua y luz [completar] |
 
-**Foto real 1, exterior:** no disponible; se requiere evidencia fotográfica de una unidad terminada.
+[Foto real 1: exterior de una unidad terminada]
+[Foto real 2: interior de una unidad terminada]
 
-**Foto real 2, interior:** no disponible; se requiere evidencia fotográfica de una unidad terminada.
-
-**Pendientes críticos:** planos, memoria de cálculo sísmico firmada, estudio geotécnico, detalle de anclajes, pruebas de instalaciones, costos desglosados y validación de permisos. El precio es un supuesto de investigación, no una cotización.
-
-<!-- Material T1 puente-fsv. Escenario ficticio. Se excluyen intencionalmente promesas de financiamiento propio y convenios. -->
+<!-- Material de T1 (product/tests/2026-11-11-1840-credito-vivienda-excluidos.md). Los campos entre corchetes los completa tech con datos reales. Queda fuera a propósito: renders de marketing, cualquier mención al financiamiento propio de Torogoz y propuestas de convenio. -->

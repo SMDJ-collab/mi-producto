@@ -40,5 +40,13 @@ Solo A3 (`puente-fsv`) está en prueba. Sobre el problema hay señales `syntheti
 - **Next step if it passes:** presentar las carpetas recibidas a precalificación del FSV o del Ministerio. Eso prueba la #9 con casos reales. Si pasa, A3 queda lista para spec.
 
 ## Results
+### T1 — ensayo (synthetic), 2026-11-11
+- **Observado:** corrida simulada por el equipo; ninguna institución fue consultada. FSV simulado: "depende", con 4 condiciones (memoria de cálculo firmada, permisos y factibilidad de servicios, avalúo aceptado, titularidad del lote). Ministerio simulado: sin respuesta. Perito simulado: respuesta verbal, sin determinar elegibilidad.
+- **Con quién y cuántos:** 0 instancias reales; 2 instancias y 1 perito simulados.
+- **Provenance:** synthetic
+- **Resultado del ensayo:** inconclusive (0 de 2 respuestas documentadas). No es el resultado de T1: la corrida real sigue pendiente.
+- **Decisión:** ninguna sobre A3. Para la corrida real: conseguir la memoria de cálculo firmada antes de enviar, que la hoja exija sí/no a tech y hacer la visita al Ministerio a los 5–7 días hábiles.
+
+### T2 — not run
 
 ## Decision
